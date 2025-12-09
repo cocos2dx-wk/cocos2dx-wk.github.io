@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service</title>
+    <style>
+        :root {
+            --primary: #2D3748;
+            --secondary: #4A5568;
+            --accent: #3182CE;
+            --light: #F7FAFC;
+            --border: #E2E8F0;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        }
+        body {
+            color: var(--secondary);
+            background-color: var(--light);
+            line-height: 1.7;
+        }
+        /* 布局容器 */
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            min-height: 100vh;
+        }
+        /* 侧边导航 */
+        .sidebar {
+            width: 280px;
+            padding: 2rem 1.5rem;
+            background: white;
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            overflow-y: auto;
+        }
+        .sidebar h1 {
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 2rem;
+            padding-bottom: 0.8rem;
+            border-bottom: 2px solid var(--border);
+        }
+        .nav-list {
+            list-style: none;
+        }
+        .nav-item {
+            margin-bottom: 1rem;
+        }
+        .nav-link {
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+            display: block;
+            padding: 0.5rem 0;
+        }
+        .nav-link:hover {
+            color: var(--accent);
+        }
+        /* 主内容区 */
+        .main-content {
+            flex: 1;
+            padding: 3rem 2.5rem;
+        }
+        .section {
+            margin-bottom: 3rem;
+            scroll-margin-top: 2rem;
+        }
+        .section h2 {
+            font-size: 1.4rem;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.7rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .section p {
+            margin-bottom: 1.2rem;
+            text-align: justify;
+        }
+        .section ul {
+            margin: 1.2rem 0 1.2rem 2rem;
+            list-style: disc;
+        }
+        .section li {
+            margin-bottom: 0.8rem;
+        }
+        .section ul ul {
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            list-style: circle;
+        }
+        /* 响应式适配 */
+        @media (max-width: 900px) {
+            .container {
+                flex-direction: column;
+            }
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: static;
+                padding: 1.5rem;
+            }
+            .main-content {
+                padding: 2rem 1.5rem;
+            }
+            .sidebar h1 {
+                font-size: 1.3rem;
+                margin-bottom: 1.5rem;
+            }
+            .section h2 {
+                font-size: 1.2rem;
+            }
+        }
+        @media (max-width: 480px) {
+            .main-content {
+                padding: 1.5rem 1rem;
+            }
+            .section ul {
+                margin-left: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 侧边导航 -->
+        <aside class="sidebar">
+            <h1>Terms of Service</h1>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#welcome" class="nav-link">1、Welcome Speech</a></li>
+                <li class="nav-item"><a href="#usage-rules" class="nav-link">2、Service Usage Rules</a></li>
+                <li class="nav-item"><a href="#privacy-copyright" class="nav-link">3、Privacy and Copyright</a></li>
+                <li class="nav-item"><a href="#usage-standards" class="nav-link">4、Usage Standards</a></li>
+                <li class="nav-item"><a href="#disclaimer" class="nav-link">5、Warranty and Disclaimer</a></li>
+            </ul>
+        </aside>
+
+        <!-- 主内容 -->
+        <main class="main-content">
+            <section id="welcome" class="section">
+                <h2>1、Welcome Speech</h2>
+                <p>Thank you for using our products and services (hereinafter referred to as "this service"). By using this service, you accept all the contents of these terms. Please read them carefully.</p>
+                <p>Our service scope is extensive, so sometimes additional terms or product requirements (including age requirements) may apply. These additional terms will be provided along with the relevant services, and by using such services, you become a part of the agreement between you and us.</p>
+            </section>
+
+            <section id="usage-rules" class="section">
+                <h2>2、Service Usage Rules</h2>
+                <p>You must comply with all policies provided within this service.</p>
+                <p>Do not abuse this service. For example, it is not allowed to interfere with the normal operation of this service, or attempt to access this service through any means other than the interface and instructions we provide. You may only use this service within the scope permitted by law (including applicable export and re export control laws and regulations). If you fail to comply with these terms or relevant policies, or if we are investigating suspected misconduct, we may suspend or terminate our services to you.</p>
+                <p>Using this service does not imply that you have acquired any intellectual property rights to this service or the content you access. Unless you have obtained permission from the relevant content owner or have other legal authorizations, you are not allowed to use any content in this service. This clause does not grant you the right to use any trademarks or logos in this service. Please do not remove, hide, or modify any legal statements displayed on or in association with this service.</p>
+                <p>This service may display content that is not owned by us, and the entity publishing such content shall bear full responsibility for it. We may review relevant content to determine whether it is illegal or violates our policies; If we have reasonable grounds to believe that the content violates policies or is illegal, we may remove or refuse to display it. But this does not mean that we have an obligation to review the content, so please do not assume that we will carry out such review work.</p>
+                <p>During your use of this service, we may send you service announcements, management messages, and other information. You can choose not to receive the above information.</p>
+            </section>
+
+            <section id="privacy-copyright" class="section">
+                <h2>3、Privacy and Copyright Protection</h2>
+                <p>By using this service, you agree to our use of your personal data in accordance with the Privacy Policy.</p>
+                <p>We will provide relevant information to copyright holders to assist them in managing intellectual property online. If you believe that someone has infringed on your copyright and wish to notify us, please follow the relevant procedures.</p>
+            </section>
+
+            <section id="usage-standards" class="section">
+                <h2>4、Usage standards</h2>
+                <p>When using this service, you must comply with relevant laws and regulations of the People's Republic of China. You agree not to use this service for any illegal or improper activities, including but not limited to the following situations:</p>
+                <ul>
+                    <li>Upload, display, publish, transmit or otherwise disseminate information containing any of the following:
+                        <ul>
+                            <li>Oppose the content of the basic principles established by the Constitution;</li>
+                            <li>Content that endangers national security, leaks state secrets, subverts state power, and undermines national unity;</li>
+                            <li>Content that damages national honor and interests;</li>
+                            <li>Content that incites ethnic hatred, discrimination, and undermines ethnic unity;</li>
+                            <li>Violating national religious policies and promoting cults and feudal superstitions;</li>
+                            <li>Spreading rumors, disrupting social order, and disrupting social stability;</li>
+                            <li>Spreading obscene, pornographic, gambling, violent, murderous, terrifying, or inciting criminal content;</li>
+                            <li>Content that insults or slanders others and infringes upon their legitimate rights and interests;</li>
+                            <li>Information containing false, harmful, coercive, infringing on the privacy of others, harassing, abusing, defamatory, vulgar, obscene or other content that violates public order and good customs;</li>
+                            <li>Information containing content prohibited or restricted by Chinese laws, regulations, rules, ordinances, and other normative documents with legal effect;</li>
+                        </ul>
+                    </li>
+                    <li>Using network service systems for any illegal purposes;</li>
+                    <li>Do not use this service to engage in the following activities:
+                        <ul>
+                            <li>Unauthorized access to computer information networks or use of computer information network resources;</li>
+                            <li>Delete, modify, or add computer information network functions without permission;</li>
+                            <li>Delete, modify, or add data and applications stored, processed, or transmitted in computer information networks without permission;</li>
+                            <li>Intentionally creating and disseminating destructive programs such as computer viruses;</li>
+                            <li>Other activities that pose a threat to computer information network security.</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>You fully understand that as a network storage space service provider, this service provider has no obligation to review the copyright of the content uploaded by users themselves. If the above-mentioned third party claims rights, the service provider will verify such claims, and you have the obligation to cooperate in providing any ownership proof documents such as creation proof and authorization proof. If you are unable to provide the corresponding proof materials, the service provider will delete the relevant content in accordance with the relevant rules of this agreement. Any third-party claims arising from the content you post violating this agreement shall be solely the responsibility of you.</p>
+                <p>If you violate this agreement or related service terms, resulting in any third-party claims, demands, or losses (including reasonable attorney fees), you agree to compensate us and hold us harmless from such claims, demands, or losses. In this regard, we have the right to take corresponding measures based on the nature of your behavior, including but not limited to deleting the information content you have posted, suspending the use license, terminating the service, restricting the use, revoking your account, and holding you legally responsible. We have the right to revoke accounts registered maliciously or used for illegal activities, harassment, fraud, and other violations of this agreement. At the same time, we will cooperate with the investigation work according to the requirements of the judicial authorities.</p>
+                <p>You are not allowed to copy, duplicate, sell, or resell any part of this service, nor to use or access this service for any other commercial purposes.</p>
+                <p>You shall bear legal responsibility for your actions during the use of this service. The forms of legal liability you undertake include but are not limited to: compensating the victim for their losses; After assuming administrative penalties or liability for infringement compensation due to your actions, please provide us with an equivalent amount of compensation.</p>
+            </section>
+
+            <section id="disclaimer" class="section">
+                <h2>5、Warranty and Disclaimer</h2>
+                <p>We will provide this service with commercially reasonable skills and caution, and hope that you will be satisfied with its use. However, we cannot guarantee certain aspects of this service.</p>
+                <p>We do not make any specific warranties with respect to this service, except as expressly provided in these or additional terms. For example, we do not guarantee the content, specific features, reliability, or availability of this service, nor do we guarantee that this service will meet your needs. This service is provided on an "as is" basis.</p>
+                <p>Some jurisdictions may provide specific warranties, such as implied warranties of merchantability, fitness for a particular purpose, and non infringement. To the maximum extent permitted by law, we exclude all such warranties.</p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
